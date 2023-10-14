@@ -1,0 +1,78 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.App-header {
+  background-color: #3f51b5;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+nav {
+  margin-bottom: 20px;
+}
+/* src/App.css */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 15px;
+  border: 1px solid #509b69;
+  border-radius: 10px;
+  padding: 10px 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav li:hover {
+  background-color: #3f51b5;
+  color: white;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+
+
+h2 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+a {
+  color: #ff4081;
+  text-decoration: none;
+}
+
+/* Add different colored blocks for sections */
+.About {
+  background-color: #e4f7f6;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.Projects {
+  background-color: #f7e4f6;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.Contact {
+  background-color: #f6e4f7;
+  padding: 20px;
+  margin: 20px 0;
+}
